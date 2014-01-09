@@ -1,6 +1,6 @@
-#[ link( name = "sift", vers = "0.1.0" ) ];
-#[ desc = "Computes the SIFT string distance between two strings" ];
+#[ crate_id = "sift#0.1.0" ];
 #[ crate_type = "lib" ];
+#[ desc = "Computes the SIFT string distance between two strings" ];
 
 pub fn distance( s1: &str, s2: &str ) -> f64 {
   
